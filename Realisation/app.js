@@ -9,4 +9,8 @@ var resetButton;
 
 guessField.focus()
 
-function checkguesses 
+function checkguesses ()
+    var userGuess = Number(guessField.value);
+    if(guessCount === 1){
+        guesses.textContent = 'Previous'
+    }
