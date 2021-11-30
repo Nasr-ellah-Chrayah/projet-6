@@ -13,7 +13,7 @@ var attempt;
  attemptOutPut = document.getElementById('tentative')
  attempt =10;
  // traitement 
-
+          
 btn.addEventListener('click', function(){
     attempt--;
     nombreDeviner = document.getElementById('userInput').value;
@@ -30,10 +30,10 @@ btn.addEventListener('click', function(){
                 
           } else{
             if ( nombreDeviner < number){
-                output.innerHTML = "le nombre que vous avez été choisi est plus petit"
+                output.innerHTML = "essayez un petit nombre!"
             }
             else {
-              output.innerHTML = "le nombre que vous avez été choisi est plus grand"
+              output.innerHTML = "essayez un grand nombre!"
             }
         
           }
