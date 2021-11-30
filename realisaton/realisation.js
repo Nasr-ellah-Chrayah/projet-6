@@ -30,15 +30,15 @@ btn.addEventListener('click', function(){
                 
           } else{
             if ( nombreDeviner < number){
-                output.innerHTML = "le nombre que vous avez choisir est plus petit"
+                output.innerHTML = "le nombre que vous avez été choisi est plus petit"
             }
             else {
-              output.innerHTML = "le nombre que vous avez choisir est plus grand"
+              output.innerHTML = "le nombre que vous avez été choisi est plus grand"
             }
         
           }
     }else {
-        output.innerHTML = "c'est rate"
+        output.innerHTML = "Tu as perdu"
         attemptOutPut.innerHTML= "0-tentative"
     }
 
